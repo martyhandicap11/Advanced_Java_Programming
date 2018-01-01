@@ -18,13 +18,10 @@ public class HashMap
       System.out.println(map);
 
       String cap = map.get("Oregon\t");
-      System.out.println("The Capital of Oregon is:\t" + cap);
+      System.out.println("The Capital of Oregon is:" + cap);
 
       map.remove("California\t");
       System.out.println(map);
-
-
-
 
   }//End of main
 
